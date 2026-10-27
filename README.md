@@ -28,7 +28,7 @@ Open http://127.0.0.1:8000/docs for interactive docs.
 - Zone averages use overlapping windows, so treat them as descriptive, not predictive.
 - Not financial advice.
 
-## Next steps for a portfolio version
+## Next steps 
 
 1. Store the merged history in PostgreSQL and refresh it daily with a scheduler (APScheduler or cron).
 2. Call `/api/signal` and `/api/analysis` from the web page instead of typing values in.
